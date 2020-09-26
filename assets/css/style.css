@@ -3,11 +3,9 @@
     padding: 0;
     margin: 0;
 }
-/*set background color of page*/
 body {
     background-color: #d9dcd6;
 }
-/*set styles for header with in-site links*/
 header {
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +18,6 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/*set separate color for the middle letters in the Horiseon logo*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -136,7 +133,6 @@ p {
 }
 
 /* corrected footer class to footer element */
-/*styles company information at bottom of page*/
 footer {
     padding: 30px;
     clear: both;
