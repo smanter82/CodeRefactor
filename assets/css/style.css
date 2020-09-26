@@ -9,10 +9,11 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    margin-bottom: 20px
 }
 
 header h1 {
@@ -25,7 +26,7 @@ header h1 .seo {
 }
 /* Corrected div element to nav */
 header nav {
-    padding-top: 15px;
+    padding-top: 20px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -39,7 +40,23 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    padding-top: 15px;
+
 }
+
+.padding {
+    padding: 20px
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
 
 a {
     color: #ffffff;
@@ -50,13 +67,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+.figure {
+
 }
 
 .float-left {
@@ -77,6 +89,7 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom:20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -104,11 +117,12 @@ p {
     max-width: 150px;
 }
 /*changed all .search-engine-optimization classes to #search-engine-optimization id*/ 
-#search-engine-optimization {
+.search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -131,7 +145,7 @@ p {
     color: #ffffff;
 }
 
-#search-engine-optimization img {
+.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -143,9 +157,10 @@ p {
     max-height: 200px;
 }
 
-#search-engine-optimization h2 {
+.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    font-weight:bold;
 }
 
 .online-reputation-management h2 {
@@ -156,8 +171,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-/* corrected footer class to footer element */
+}/* corrected footer class to footer element */
 footer {
     padding: 30px;
     clear: both;

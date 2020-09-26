@@ -3,15 +3,17 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Horiseon</title>
 </head>
 
 <body>
     <header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
+        <h1 class="padding">Hori<span class="seo">seo</span>n</h1>
+       
         <!--Changed <div> to <nav>-->
-        <nav>
+        <nav class="padding">
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -24,27 +26,28 @@
                 </li>
             </ul>
         </nav>
+        <figure class="hero"></figure>
     </header>
-    <!--removed <div class="her"></div> because it didn't have anything inside of it.-->
     <main class="content">
-        <!--changed class to id on "search-engine-optimization" to fix a broken link-->
+        <!--added id on "search-engine-optimization" to fix a broken link-->
         <!--changed div to article-->
-        <article id="search-engine-optimization">
-            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+        <!--added alts to images-->
+        <article id="search-engine-optimization" class="search-engine-optimization" >
+            <img src="./assets/images/search-engine-optimization.jpg" alt="Desk with SEO notebook" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" class="online-reputation-management">
-            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
+        <article id="online-reputation-management" class="online-reputation-management" >
+            <img src="./assets/images/online-reputation-management.jpg" alt="Laptop displaying Reputation data" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
+        <article id="social-media-marketing" class="social-media-marketing" >
+            <img src="./assets/images/social-media-marketing.jpg" alt="Table with social media icons" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
