@@ -110,3 +110,6 @@ The URL of the GitHub repository. Give the repository a unique name and include 
 
 Some elements of code done in collaboration with class study group:
 https://github.com/ReindeerCode, https://github.com/mdjonestwo, https://github.com/junkoyama, https://github.com/JesalDM/, https://github.com/EddiePhi, https://github.com/Dlabins, https://github.com/dmaysteinman, https://github.com/arensalmela
+
+<img src="./assets/screencapture-smanter82-github-io-CodeRefactor-2020-09-26-10_19_02>
+          
