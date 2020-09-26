@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/*set background color of page*/
 body {
     background-color: #d9dcd6;
 }
-
+/*set styles for header with in-site links*/
 header {
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +20,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*set separate color for the middle letters in the Horiseon logo*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -116,27 +116,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*changed all .search-engine-optimization classes to #search-engine-optimization id*/ 
+/*condensed article classes to remove redundant attributes*/ 
 .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -149,29 +130,13 @@ p {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
-    font-weight:bold;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}/* corrected footer class to footer element */
+/* corrected footer class to footer element */
+/*styles company information at bottom of page*/
 footer {
     padding: 30px;
     clear: both;
