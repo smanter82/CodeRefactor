@@ -107,6 +107,7 @@ The URL of the GitHub repository. Give the repository a unique name and include 
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
+Deployed application:  https://smanter82.github.io/CodeRefactor/
 
 Some elements of code done in collaboration with class study group:
 https://github.com/ReindeerCode, https://github.com/mdjonestwo, https://github.com/junkoyama, https://github.com/JesalDM/, https://github.com/EddiePhi, https://github.com/Dlabins, https://github.com/dmaysteinman, https://github.com/arensalmela
